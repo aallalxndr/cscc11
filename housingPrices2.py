@@ -10,8 +10,8 @@ def rmse(y_true, y_pred):
     return np.sqrt(mean_squared_error(y_true, y_pred))
 
 # Load the data.
-train_df = pd.read_csv("../input/train.csv")
-test_df = pd.read_csv("../input/test.csv")
+train_df = pd.read_csv("C:\Users/aalla/Documents/cscc11/housing/train.csv")
+test_df = pd.read_csv("C:\Users/aalla/Documents/cscc11/housing/test.csv")
 
 # There are a few houses with more than 4000 sq ft living area that are
 # outliers, so we drop them from the training data. (There is also one in
